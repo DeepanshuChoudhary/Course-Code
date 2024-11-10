@@ -409,8 +409,67 @@ p{
 
 #banners .small-banners h5 {
     color: #771818;
+    transition: 0.2s ease-in-out;
 }
 
-#newsletter {
-    
+#banners .small-banners div:hover h5 {
+    color: white;
+    transform: scale(1.1);
+}
+
+.newsletter {
+    background-image: url(images/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 180px;
+    background-color: #041e42;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+}
+
+.newsletter .newsletter-text h3 {
+    color: white;
+    font-size: 30px;
+    padding: 0 0 15px 0;
+}
+
+.newsletter .newsletter-text h5 {
+    color: rgb(151, 151, 151);
+    font-size: 17px;
+}
+
+.newsletter .newsletter-text h5 span {
+    color: rgb(216, 182, 29);
+}
+
+.newsletter .form input {
+    padding: 20px;
+    width: 350px;
+    height: 56px;
+    background-color: #d1d0d0;
+    border-radius: 6px 0 0 6px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-right: -4px;
+    margin-top: 1px;
+}
+
+.newsletter .form button {
+    margin-left: 0;
+    padding: 20px;
+    border: none;
+    width: 120px;
+    background-color: #088178;
+    color: white;
+    font-size: 17px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.newsletter .form button:hover {
+    transform: scale(0.97);
 }
