@@ -473,3 +473,50 @@ p{
 .newsletter .form button:hover {
     transform: scale(0.97);
 }
+
+#footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 75px;
+    background-color: #ececec;
+}
+
+#footer p, a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+#footer a:hover {
+    color: #088178;
+}
+
+#footer .about a {
+    display: block;
+    padding: 8px 0px;
+
+}
+
+#footer .myaccount a {
+    display: block;
+    padding: 8px 0px;
+}
+
+#footer .installApp a {
+    display: block;
+    padding: 8px 0px;
+}
+
+#footer .download img {
+    border: 1px solid #08817969;
+    border-radius: 7px;
+}
+
+.contact .image-and-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+}
