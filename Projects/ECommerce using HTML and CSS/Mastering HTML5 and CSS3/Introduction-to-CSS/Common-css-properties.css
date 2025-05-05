@@ -1,0 +1,15 @@
+.container{
+    color: red;
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold; /* default value is 400 */
+    text-align: right;
+    text-decoration: line-through;
+    line-height: 48px;
+    background-color: lightblue;
+    background-image: url("https://unsplash.it/512/512");
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

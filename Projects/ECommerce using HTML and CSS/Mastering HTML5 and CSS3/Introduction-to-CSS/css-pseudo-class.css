@@ -1,0 +1,27 @@
+a:link {
+    color: red;
+    margin: 15px;
+}
+
+a:visited {
+    color: green;
+}
+
+
+a:hover{
+    background-color: purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a:active{
+    color: blue;
+}
+
+.container:hover{
+    background-color: orangered;
+}
+
+.container:active{ /* Rule: Always use active element after the hover element */
+    background-color: brown;
+} 

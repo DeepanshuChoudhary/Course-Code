@@ -1,0 +1,21 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    /* Transition Animation */
+    
+    /* transition-property: width, height, background-color;
+    transition-duration: 1s, 1s, 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0ms; */
+
+    transition: width 1s ease-in-out, height 1s ease-in-out, background-color 0.8s ease-in-out;
+
+}
+
+.box:hover{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+}
