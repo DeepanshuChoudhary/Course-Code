@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    padding: 10px;
+    height: 50vw;
+
+    background-color: lightgrey;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    gap: 10px 10px;
+
+    /* there we divide the grid-template-areas: ; as the page layout, upper section is Header 4 columns and then 2 columns of content third blank and then sidebar, then last we have footer 4 columns */
+    grid-template-areas: 
+    "header header header header" /* Here we have 4 columns we set as the header */
+    "content content . sidebar" /* the meaning of "." this is the blank space */
+    "footer footer footer footer"
+    ;
+}
+
+.item {
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+}
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: content;
+}
+
+.item-3 {
+    grid-area: sidebar;
+}
+
+.item-4 {
+    grid-area: footer;
+}
+

@@ -1,0 +1,27 @@
+.container{
+    background-color: lightgray;
+    padding: 5px;
+    
+    display: grid;
+
+    /* grid-template-columns: 200px 200px auto; */
+    /* grid-template-columns: repeat(4, auto); */
+    /* grid-template-columns: 200px 150px 1fr 1fr; */
+    /* grid-template-columns: repeat(auto-fill, 100px); */
+    /* grid-template-columns: 200px min-content 3fr 2fr;  */
+    /* grid-template-columns: 200px max-content 3fr 2fr; */
+    grid-template-columns: 200px minmax(200px, 1fr) 3fr 2fr;
+    /* minmac(200px, 1fr) - it means (minValue, maxValue) */
+
+    /* All the functions use in Columns also apply here */
+    grid-template-rows: repeat(3, 150px);
+
+    grid-gap: 10px 10px;
+
+}
+
+.item{
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+}

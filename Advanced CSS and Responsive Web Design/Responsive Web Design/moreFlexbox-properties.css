@@ -1,0 +1,37 @@
+.container{
+    background-color: lightgrey;
+    display: flex;
+    padding: 10px;
+    /* height: 200px; */
+    height: 100vh;
+
+    flex-flow: row wrap;
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center; /* You have to make sure the justify-content: center; */
+
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: stretch; */
+
+}
+
+.item{
+    background-color: tomato;
+    color: white;
+    /* height: 50px; */
+    margin: 5px;
+    padding: 5px;
+}

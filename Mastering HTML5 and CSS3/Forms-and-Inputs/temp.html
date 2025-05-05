@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    
+    <form action="/" method="GET">
+
+        <table>
+
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" placeholder="@example.com"></td>
+            </tr>
+
+            <tr>
+                <td><label for="phone-number">Phone number</label></td>
+                <td><input type="tel" id="phone-number" name="phone-number"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender"> Male
+                    <input type="radio" id="female" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="profession">Profession</label></td>
+
+                <td>
+                    <select name="profession" id="profession">
+                        <option value="" disabled selected>Select the option</option>
+                        <option value="Govt. Office">Govt. Office</option>
+                        <option value="Engineer">Engineer</option>
+                        <option value="Business">Business</option>
+                        <option value="Doctor">Doctor</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="message">Message</label></td>
+                <td>
+                    <textarea name="message" id="message" placeholder="write your message" cols="40" rows="6"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="tnc" name="tnc">
+                    <label for="tnc">I accept the terms and conditions</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="reset" id="reset" name="reset"> 
+                </td>
+                <td style="text-align: right;">
+                    <input type="submit" id="submit" name="submit"> 
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>

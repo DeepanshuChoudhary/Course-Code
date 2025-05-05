@@ -1,0 +1,50 @@
+@keyframes moveAround{
+    /* from{
+        left: 0px;
+    }
+    to{
+        left: 400px;
+    } */
+
+    0%, 100%{
+        left: 0px;
+        top: 0px;
+    }
+
+    25%{
+        left: 400px;
+        top: 0px;
+        background: green;
+    }
+
+    50%{
+        left: 400px;
+        top: 400px;
+        background-color: blue;
+        border-radius: 100px;
+    }
+
+    75%{
+        left: 0px;
+        top: 400px;
+        background-color: yellow;
+    }
+
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    position: relative;
+
+    animation-name: moveAround;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    /* animation-direction: alternate; */
+    animation-direction: normal;
+}
