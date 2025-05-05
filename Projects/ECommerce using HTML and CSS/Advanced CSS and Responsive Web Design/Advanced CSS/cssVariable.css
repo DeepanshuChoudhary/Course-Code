@@ -1,0 +1,18 @@
+body{
+    --mainColor: rgb(59, 59, 192); 
+    --mainFontsize: 32px;
+    --mainColorBack: red;
+}
+
+.parent{
+
+}
+
+.child-level-1{
+    color: var(--mainColor);
+}
+
+.child-level-2{
+    font-size: var(--mainFontsize);
+    color: var(--mainColorBack);
+}

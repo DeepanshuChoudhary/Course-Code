@@ -1,0 +1,9 @@
+@font-face{
+    font-family: "ProtestGuerrilla-Regular";
+    /* src: url(Font\ folder/ProtestGuerrilla-Regular.ttf); */
+    src: url(ProtestGuerrilla-Regular.ttf);
+}
+
+.parent h1, h2, h3{
+    font-family: "ProtestGuerrilla-Regular";
+}

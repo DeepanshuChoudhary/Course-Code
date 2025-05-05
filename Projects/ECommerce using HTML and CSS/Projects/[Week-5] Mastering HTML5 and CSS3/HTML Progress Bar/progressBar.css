@@ -1,0 +1,32 @@
+body{
+    margin: 20px;
+}
+
+label{
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+progress{ 
+    appearance: none; /* This is use to reset the default style of a form element like: buttons, dropdowns, checkboxes etc. provided by the browser */
+    -webkit-appearance: none; /* This reset the Safari and Chrome */
+    -moz-appearance: none; /* This reset the Mozilla and FireFox */
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-color: red; - It doesn't work in Chrome, Safari and Edge */
+}
+
+/* Chrome, Safari and Edge */
+progress[value]::-webkit-progress-bar{
+    background-color: #254457;
+}
+
+progress[value]::-webkit-progress-value{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* background-color: yellow; */
+
+    background-image: linear-gradient(45deg, #ffe100 27.78%, #3D6F8E 27.78%, #3D6F8E 50%, #ffe100 50%, #ffe100 77.78%, #3D6F8E 77.78%, #3D6F8E 100%);
+    background-size: 25.46px 25.46px;
+}

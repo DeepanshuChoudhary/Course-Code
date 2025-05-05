@@ -1,0 +1,38 @@
+/* h1::before{
+    content: "hello world! - ";
+    color: red;
+    font-size: 50px;
+}
+
+h1::after{
+    content: "Say goodbye - ";
+    color: blue;
+    font-size: 65px;
+} */
+
+h1::before{
+    content: "< ";
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h1::after{
+    color: red;
+    font-weight: bolder;
+    font-size: 50px;
+    content: " >";
+}
+
+.child01 p::before{
+    content: open-quote;
+}
+
+.child01 p::after{
+    content: close-quote;
+}
+
+.child02 p::first-letter{
+    color: rgb(136, 53, 136);
+    font-size: 60px;
+}
